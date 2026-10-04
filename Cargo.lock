@@ -194,8 +194,9 @@ dependencies = [
 
 [[package]]
 name = "libnotify-rs"
-version = "0.3.0"
-source = "git+https://github.com/szymon-jozef/libnotify-rs#0e2e97bf665c1787e9d0ce542f0e30477ccbd372"
+version = "1.0.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "0d4c58e0b2c202e2a7144631721d97a814aafddf648dd4294eedcea7d212921d"
 dependencies = [
  "bindgen",
  "clap",
